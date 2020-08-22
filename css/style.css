@@ -110,7 +110,9 @@ img{
 */
 
 .block{
-    width: 300px;
+    /* width: 320px; */
+    width: 89.8486%;
+    /* max-width: 300px; */
     margin-left: auto;
     margin-right: auto;
 }
@@ -123,6 +125,10 @@ img{
     font-size: 22px;
     color: #fff;
     font-weight: 700;
+}
+
+.block__title--h2{
+    font-size: 18px;
 }
 
 .block__text{
@@ -144,4 +150,55 @@ img{
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+/*
+    ====Info====
+*/
+
+
+/*
+    ====CARD====
+*/
+.card__img-content{
+    display: flex;
+    justify-content: center;
+}
+
+.card__item{
+    margin-bottom: 6rem;
+}
+
+/*
+    ====STAY-PRODUCTIVE===
+*/
+.stay-productive__img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 280px;
+    display: block;
+}
+
+
+/*
+    ====LINK====
+*/
+.link{
+    --b: var(--Cyan); 
+    color: var(--b);
+    display: flex;
+    justify-content: flex-start;
+}
+
+.link__content{
+    display: flex;
+    align-items: center;
+    line-height: 0;
+    border-bottom: solid 1px var(--b);
+    padding-top: .3rem;
+    padding-bottom: .3rem;
+}
+
+.link__img{
+    margin-left: .3rem;
 }

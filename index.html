@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--displays site properly based on user's device-->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
@@ -42,14 +42,18 @@
     </header>
 
     <div class="portada m--b-6">
-        <img src="./images/illustration-intro.png" alt="imagen de portada" class="portada__img">
-        <div class="block block--align-center m--b-2">
-            <h1 class="block__title m--b-1">All your files in one secure location, accessible anywhere.</h1>
-            <p class="block__text">
-                Fylo stores all your most important files in one secure location. Access them wherever you need, share and collaborate with friends family, and co-workers.
-            </p>
+        <div class="container">
+            <div class="portada__content">
+                <img src="./images/illustration-intro.png" alt="imagen de portada" class="portada__img">
+                <div class="block block--align-center m--b-2">
+                    <h1 class="block__title m--b-1">All your files in one secure location, accessible anywhere.</h1>
+                    <p class="block__text">
+                        Fylo stores all your most important files in one secure location. Access them wherever you need, share and collaborate with friends family, and co-workers.
+                    </p>
+                </div>
+                <button class="portada__btn btn btn--center">Get Started</button>
+            </div>
         </div>
-        <button class="portada__btn btn btn--center">Get Started</button>
     </div>
 
     <div class="info">
@@ -57,16 +61,61 @@
             <div class="info__content">
                 <div class="card">
                     <div class="card__item">
-                        <div class="card__img-content">
-                            <img src="" alt="" class="card__img">
+                        <div class="card__img-content m--b-2">
+                            <img src="./images/icon-access-anywhere.svg" alt="" class="card__img">
                         </div>
                         <div class="card__body">
-                            <div class="block">
-                                <h2 class="block__title">
-                                    
+                            <div class="block block--align-center">
+                                <h2 class="block__title block__title--h2 m--b-1">
+                                    Access your files, anywhere
                                 </h2>
                                 <p class="block__text">
-                                    
+                                    The ability to use a smartphone, tablet, or computer to access your account means your files follow you everywhere.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card__item">
+                        <div class="card__img-content m--b-2">
+                            <img src="./images/icon-security.svg" alt="security" class="card__img">
+                        </div>
+                        <div class="card__body">
+                            <div class="block block--align-center">
+                                <h2 class="block__title block__title--h2 m--b-1">
+                                    Security you can trust
+                                </h2>
+                                <p class="block__text">
+                                    2-factor authentication and user-controlled encryption are just a couple of the security features we allow to help secure your files.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card__item">
+                        <div class="card__img-content m--b-2">
+                            <img src="./images/icon-collaboration.svg" alt="time" class="card__img">
+                        </div>
+                        <div class="card__body">
+                            <div class="block block--align-center">
+                                <h2 class="block__title block__title--h2 m--b-1">
+                                    Real-time collaboration
+                                </h2>
+                                <p class="block__text">
+                                    Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card__item">
+                        <div class="card__img-content m--b-2">
+                            <img src="./images/icon-any-file.svg" alt="file" class="card__img">
+                        </div>
+                        <div class="card__body">
+                            <div class="block block--align-center">
+                                <h2 class="block__title block__title--h2 m--b-1">
+                                    Store any type of file
+                                </h2>
+                                <p class="block__text">
+                                    Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all file types to be securely stored and shared.
                                 </p>
                             </div>
                         </div>
@@ -76,38 +125,53 @@
         </div>
     </div>
 
+    <section class="stay-productive">
+        <div class="container">
+            <div class="stay-productive__content">
+                <img src="./images/illustration-stay-productive.png" alt="" class="stay-productive__img m--b-2">
+                <div class="stay-productive__body">
+                    <div class="block">
+                        <h2 class="block__title block__title--h2 m--b-1">Stay productive, wherever you are</h2>
+                        <p class="block__text m--b-1">Never let location be an issue when accessing your files. Fylo has you covered for all of your file  storage needs.</p>
+                        <p class="block__text m--b-1">
+                            Securely share files and folders with friends, family and colleagues for live collaboration. No email  attachments required.
+                        </p>
+                        <div class="link">
+                            <div class="link__content">
+                                <span class="link__text">See how Fylo works
+                                </span>
+                                <img src="./images/icon-arrow.svg" alt="arrow-right" class="link__img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
   
 
-  Access your files, anywhere
+  
 
-  The ability to use a smartphone, tablet, or computer to access your account means your 
-  files follow you everywhere.
+  
 
-  Security you can trust
+  
 
-  2-factor authentication and user-controlled encryption are just a couple of the security 
-  features we allow to help secure your files.
+  
 
-  Real-time collaboration
+  
 
-  Securely share files and folders with friends, family and colleagues for live collaboration. 
-  No email attachments required.
+  
 
-  Store any type of file
+  
 
-  Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all 
-  file types to be securely stored and shared.
+  
 
-  Stay productive, wherever you are
+  
 
-  Never let location be an issue when accessing your files. Fylo has you covered for all of your file 
-  storage needs.
+  
 
-  Securely share files and folders with friends, family and colleagues for live collaboration. No email 
-  attachments required.
-
-  See how Fylo works
+  
 
   Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
   become a well-oiled collaboration machine.
