@@ -8,23 +8,55 @@
   
   <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet"> 
+
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
-  Features
-  Team
-  Sign In
 
-  All your files in one secure location, accessible anywhere.
 
-  Fylo stores all your most important files in one secure location. Access them wherever 
-  you need, share and collaborate with friends family, and co-workers.
+    <header class="header">
+        <div class="container">
+            <div class="header__content">
+                <div class="header__logo">
+                    <img src="./images/logo.svg" alt="logo" class="header__img">
+                </div>
+                <nav class="header__nav">
+                    <ul class="header__list">
+                        <li class="header__item">
+                            <a href="#" class="header__link">Features</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#" class="header__link">Team</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#" class="header__link">Sign In</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
 
-  Get Started
+    <div class="portada">
+        <img src="./images/illustration-intro.png" alt="imagen de portada" class="portada__img">
+        <h1 class="portada__title">All your files in one secure location, accessible anywhere.</h1>
+        <p class="portada__text">
+            Fylo stores all your most important files in one secure location. Access them wherever you need, share and collaborate with friends family, and co-workers.
+        </p>
+        <button class="btn">Get Started</button>
+    </div>
+
+
+
+
+
+  
+
+  
 
   Access your files, anywhere
 
@@ -96,11 +128,5 @@
   Terms
   Privacy
 
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
 </body>
 </html>
