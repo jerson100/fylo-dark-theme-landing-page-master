@@ -21,6 +21,10 @@ body{
     background-color: var(--Dark-Blue-main);
 }
 
+img{
+    max-width: 100%;
+}
+
 .container{
     max-width: 1200px;
     margin-left: auto;
@@ -31,6 +35,12 @@ body{
 
 .header{
     /* border: solid 1px peru; */
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: var(--Dark-Blue-main);
 }
 
 .header__content{
@@ -60,4 +70,12 @@ body{
 .header__link{
     color: rgba(255, 255, 255, 0.657);
     text-decoration: none;
+}
+
+/*
+    ===== PORTADA ======
+*/
+
+.portada{
+    margin-top: 80px;
 }
