@@ -172,6 +172,10 @@ img{
 /*
     ====STAY-PRODUCTIVE===
 */
+.stay-productive{
+    margin-bottom: 7rem;
+}
+
 .stay-productive__img{
     margin-left: auto;
     margin-right: auto;
@@ -201,4 +205,55 @@ img{
 
 .link__img{
     margin-left: .3rem;
+}
+
+/*
+    =====Comments=====
+*/
+
+.comments{
+    color: rgba(255, 255, 255, 0.657);
+}
+
+.comments__content{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    background-image: url('../images/bg-quotes.png');
+    background-repeat: no-repeat;
+    background-position: 2.3rem .7rem;
+    background-size: 30px;
+    /* background-clip: content-box; */
+}
+
+.comments__item{
+    box-shadow: 0 0 20px 1px rgba(0,0,0,.2);
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    background-color: var(--Dark-Blue-testimonials);
+    border-radius: 5px;
+}
+
+.comments__description{
+    font-size: 11px;
+}
+
+.comments__img{
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    border-radius: 50%;
+}
+
+.comments__details{
+    display: inline-block;
+    font-size: .9rem;
+}
+
+.comments__username{
+    color: #fff;
+}
+
+.comments__work{
+    font-size: .68em;
 }
