@@ -213,6 +213,7 @@ img{
 
 .comments{
     color: rgba(255, 255, 255, 0.657);
+    margin-bottom: 20rem;
 }
 
 .comments__content{
@@ -243,6 +244,7 @@ img{
     height: 30px;
     object-fit: contain;
     border-radius: 50%;
+    margin-right: .3rem;
 }
 
 .comments__details{
@@ -256,4 +258,123 @@ img{
 
 .comments__work{
     font-size: .68em;
+}
+
+/*
+    ===== Contact =====
+*/
+
+.footer{
+    background-color: var(--Dark-Blue-footer);
+    /* height: 500px; */
+}
+
+.footer__content{
+    position: relative;
+}
+
+.footer__contact{
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 100%;
+    transform: translate(-50%,-50%);
+}
+
+.contact__content{
+    border: solid 1px var(--Dark-Blue-footer);
+    padding: 1.9rem 1rem;
+    border-radius: 10px;
+    background-color: var(--Dark-Blue);
+    box-shadow: 5px  5px 10px 1px var(--Dark-Blue-footer);
+}   
+
+.contact__email{
+    border-radius: 25px;
+    padding: 1.2em 1.8em;
+    background-color: #fff;
+    border: none;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 1.5rem;
+    outline: 0;
+}
+
+.contact__btn{
+    width: 85%;
+}
+
+.footer__creditos{
+    padding-top: 15rem;
+    padding-bottom: 2rem;
+}
+
+.footer__img-logo{
+    margin-bottom: 3rem;
+}
+
+.list{
+    list-style: none;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2.5rem;
+}
+
+.list--m--b-5{
+    margin-bottom: 5rem;
+}
+
+.list__item{
+    display: flex;
+    margin-bottom: 1.5rem;
+}
+
+.list__item--mb--0{
+    margin-bottom: 0;
+}
+
+.list--mb--0{
+    margin-bottom: 0;
+}
+
+.list__item:last-child{
+    margin-bottom: 0;
+}
+
+.list__icon{
+    margin-right: 1rem;
+    font-size: 16px;
+    height: 20px;
+    flex: 0 0 20px;
+}
+
+.list__icon--border{
+    border: solid 1px #fff;
+    border-radius: 50%;
+}
+
+.list__icon--w--md{
+    font-size: .75rem;
+    width: 30px;
+    height:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list__link{
+    text-decoration: none;
+    color: inherit;
+}
+
+.list__link:hover{
+    text-decoration: underline;
+}
+
+.list--r--center{
+    flex-direction: row;
+    justify-content: center;
 }
