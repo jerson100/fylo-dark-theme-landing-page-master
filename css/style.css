@@ -489,5 +489,76 @@ img{
         max-width: 350px;
     }
 
+    /*
+        === Comments ===
+    */
+
+    .comments__content{
+        display: flex;
+    }
+
+    .comments__item{
+        margin-right: 2rem;
+        margin-bottom: 0;
+        flex: 1 0 0;
+    }
+
+    .comments__item:last-child{
+        margin-right: 0;
+    }
+
+    .comments__description{
+        font-size: .9rem;
+    }
+
+    /*
+        ===CONTACT===
+    */
+    .contact{
+        display: flex;
+        justify-content: center;
+    }
+
+    .contact__content{
+        width: 70%;
+        padding: 2.5rem 5rem;
+    }
+
+    .contact__title{
+        font-size: 30px;
+    }
+
+    .contact__form{
+        display: flex;
+    }
+
+    .contact__email{
+        flex: 0 0 65%;
+        margin-right: 1rem;
+        margin-bottom: 0;
+    }
+
+    .contact__btn{
+        flex: 1 0 0;
+    }
+
+    .footer__list{
+        border: solid 1px peru;
+        display: flex;
+    }
+
+    .list{
+        border: solid 1px red;
+    }
+
+    .list__item{
+        flex-shrink: 0;
+        flex-grow: 0;
+    }
+
+    .footer__location{
+        display: flex;
+    }
+
 }
 
