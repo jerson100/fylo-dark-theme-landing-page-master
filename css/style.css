@@ -78,6 +78,31 @@ img{
     color: #fff;
     background-image: linear-gradient(to right,var(--Cyan),var(--Blue));
     border-radius: 25px;
+    transition: transform 500ms ease;
+    cursor: pointer;
+}
+
+.btn:hover{
+    animation-name: btnright;
+    animation-duration: 500ms;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    /* animation-fill-mode: forwards; */
+    animation-timing-function: ease;
+    
+}
+
+@keyframes btnright{
+    from{
+        background-position-x: -500px;
+    }
+    to{
+        background-position-x: 0px;
+    }
+}
+
+.btn:active{
+    transform: scale(1.1) rotate(360deg);
 }
 
 .btn--center{
