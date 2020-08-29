@@ -388,7 +388,7 @@ img{
 @media screen and (min-width: 1440px){
 
     body{
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .m--b-1{
@@ -543,21 +543,37 @@ img{
     }
 
     .footer__list{
-        border: solid 1px peru;
         display: flex;
     }
 
     .list{
-        border: solid 1px red;
+        margin-bottom: 0;
     }
 
-    .list__item{
-        flex-shrink: 0;
-        flex-grow: 0;
+    .footer__left{
+        display: flex;
+        flex: 0 0 600px;
+        margin-right: 8rem;
     }
 
     .footer__location{
         display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .footer__location > .list__item{
+        flex:  0 0 60%;
+    }
+
+    .list__group{
+        flex: 0 0 30%;
+    }
+
+    .footer__right{
+        display: flex;
+        flex: 1 0 0;
+        justify-content: space-between;
     }
 
 }
