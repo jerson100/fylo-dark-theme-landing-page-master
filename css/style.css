@@ -428,5 +428,36 @@ img{
         margin-right: auto;
     }
 
+    /*
+        == CARD ==
+    */
+
+    .info__content{
+        display: flex;
+        justify-content: center;
+    }
+
+    .info__cards{
+        max-width: 85%;
+    }
+
+    .card{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .card__item{
+        flex: 0 0 348px;
+    }
+
+    .card__img{
+        height: 5rem;
+    }
+
+    .card__block{
+        width: 100%;
+    }
+
 }
 
