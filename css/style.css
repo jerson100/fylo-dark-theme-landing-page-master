@@ -38,6 +38,54 @@ img{
     margin-bottom: 6rem;
 }
 
+/*
+    ====== BLOCK =======
+*/
+
+.block{
+    /* width: 320px; */
+    width: 89.8486%;
+    /* max-width: 300px; */
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+}
+
+.block--align-center{
+    text-align: center;
+}
+
+.block__title{
+    /* font-size: 22px; */
+    /* font-size: 1.37em; */
+    color: #fff;
+    font-weight: 700;
+}
+
+.block__title--h2{
+    font-size: 1.17em;
+}
+
+.block__text{
+    color: rgba(255,255,255,.8);
+}
+
+.btn{
+    font-size: 16px;
+    padding: 1em;
+    border: none;
+    outline: 0;
+    color: #fff;
+    background-image: linear-gradient(to right,var(--Cyan),var(--Blue));
+    border-radius: 25px;
+}
+
+.btn--center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .container{
     max-width: 1200px;
     margin-left: auto;
@@ -101,56 +149,14 @@ img{
     margin-bottom: 3rem;
 }
 
+.portada__title{
+    font-size: 22px;
+}
+
 .portada__btn{
     width: 245px;
 }
 
-/*
-    ====== BLOCK =======
-*/
-
-.block{
-    /* width: 320px; */
-    width: 89.8486%;
-    /* max-width: 300px; */
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.block--align-center{
-    text-align: center;
-}
-
-.block__title{
-    font-size: 22px;
-    color: #fff;
-    font-weight: 700;
-}
-
-.block__title--h2{
-    font-size: 18px;
-}
-
-.block__text{
-    color: rgba(255,255,255,.8);
-    font-size: 14px;
-}
-
-.btn{
-    font-size: 16px;
-    padding: 1em;
-    border: none;
-    outline: 0;
-    color: #fff;
-    background-image: linear-gradient(to right,var(--Cyan),var(--Blue));
-    border-radius: 25px;
-}
-
-.btn--center{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 /*
     ====Info====
@@ -378,3 +384,49 @@ img{
     flex-direction: row;
     justify-content: center;
 }
+
+@media screen and (min-width: 1440px){
+
+    body{
+        font-size: 18px;
+    }
+
+    .m--b-1{
+        margin-bottom: 1.3rem;
+    }
+
+    .m--b-2{
+        margin-bottom: 2.3rem;
+    }
+
+    .portada__content{
+        max-width: 650px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .header__item{
+        margin-right: 2.5rem;
+    }
+
+    .portada__img{
+        width: 100%;
+    }
+
+    .portada__block{
+        width: 100%;
+    }
+
+    .portada__title{
+        font-size: 36px;
+    }
+
+    .portada__text{
+        font-size: 19px;
+        width: 87%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
