@@ -399,6 +399,10 @@ img{
         margin-bottom: 2.3rem;
     }
 
+    .m--b-6{
+        margin-bottom: 10rem;
+    }
+
     .portada__content{
         max-width: 650px;
         margin-left: auto;
@@ -443,7 +447,7 @@ img{
 
     .card{
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-around;
         flex-wrap: wrap;
     }
 
